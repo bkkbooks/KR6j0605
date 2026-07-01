@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR6j0605/v1
+canonical_location: https://kanripo.org/bkk/KR6j0605/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說一切功德莊嚴王經
+  identifiers:
+    alt_id:
+    - T21n1374
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1374.xml
+    old_id: T21n1374
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit3
+- short: 元
+  label: 元
+  source_xml_id: wit1
+- short: 明
+  label: 明
+  source_xml_id: wit2
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0605_000.yaml, hash: 'sha256:e24f3a2f355f47081b36eae3af02fe8e6e90fdc7da934bc2bb818d6f7efae4c3'}
+  - {seq: 1, filename: KR6j0605_001.yaml, hash: 'sha256:e0e542522b3f97590b5221913e6b5076b6edfb72a5dcc2bd0882babe7d9ce7d6'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0605_001.markers.yaml, hash: 'sha256:98c669ea78ed0780b2bd3461c33f58daa5b3ebc2f13f1b40c31b7659fe8a9619'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0605_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 6001
+  label: 佛說一切功德莊嚴王經一卷
+  type: juan
+  level: 1
+hash: sha256:dd57aae825605e58a1c5f25e38f56b0461202101c061e92e4795626db5578ad9
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

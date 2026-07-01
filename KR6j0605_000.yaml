@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6j0605/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說一切功德莊嚴王經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1374.xml
+    old_id: T21n1374
+hash: sha256:e24f3a2f355f47081b36eae3af02fe8e6e90fdc7da934bc2bb818d6f7efae4c3
