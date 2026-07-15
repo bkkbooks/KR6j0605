@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0605/v1
 canonical_location: https://kanripo.org/bkk/KR6j0605/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說一切功德莊嚴王經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0605_000.yaml, hash: 'sha256:e24f3a2f355f47081b36eae3af02fe8e6e90fdc7da934bc2bb818d6f7efae4c3'}
-  - {seq: 1, filename: KR6j0605_001.yaml, hash: 'sha256:214a07e9d01cb76f0512dd585ae6256b8677f3931c7ea6a937bfd6dc72578c13'}
+  - {seq: 1, filename: KR6j0605_001.yaml, hash: 'sha256:45a9648debcecfeb86e48e083aa7b59a1cd415fdc858c73156cc1571a5c8d912'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0605_000.markers.yaml, hash: 'sha256:e18a2bb28c612565088786dadda9060c6abf2d0a33d46f927d90a1a07ce54fa2'}
-  - {seq: 1, role: markers, filename: assets/KR6j0605_001.markers.yaml, hash: 'sha256:96afb7db96d94b5c551f15193bcda5881eccf8a12e53af20bf5108b1dc63a48b'}
+  - {seq: 1, role: markers, filename: assets/KR6j0605_001.markers.yaml, hash: 'sha256:e36bf45b74fc1bd9f33c0028d40d8772d08cd04209f404a12ee9f9e8540bd3a1'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 佛說一切功德莊嚴王經一卷
   type: juan
   level: 1
-hash: sha256:64b9da047d1523048168bcab00a5eb1e0b33640ad974ba0a4766c45ca242d309
+hash: sha256:ac4f3d33a78e0b0fc6107d9c546c7ca11a5ca56d6db22f428b7395c12747dd16
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
